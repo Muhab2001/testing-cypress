@@ -2,7 +2,7 @@
 
 describe("My First Test", () => {
   it("Visit the lovely website!", () => {
-    cy.visit("http://localhost:3000/");
+    cy.visit("/");
     cy.contains("Learn")
     cy.contains("Examples")
     

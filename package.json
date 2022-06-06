@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "cy:run": "cypress run",
-    "test": "start-server-and-test start http://localhost:3030 cy:run"
+    "test": "start-server-and-test start http://localhost:3030 cy:run",
+    "config": "cypress open --config-file=cypress.config.js"
   },
   "dependencies": {
     "next": "12.1.6",
