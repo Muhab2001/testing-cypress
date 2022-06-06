@@ -5,6 +5,7 @@ describe("My First Test", () => {
     cy.visit("/");
     cy.contains("Learn")
     cy.contains("Examples")
+    cy.intercept("GET", "/activities/*", {fixtures: "example.json"})
     
   });
 });

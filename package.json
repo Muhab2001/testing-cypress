@@ -2,6 +2,7 @@
   "name": "cypress_tst",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +12,8 @@
     "config": "cypress open --config-file=cypress.config.js"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.6",
+    "graphql": "^16.5.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
