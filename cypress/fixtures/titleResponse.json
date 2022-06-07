@@ -1,0 +1,14 @@
+{
+  "data": {
+    "Media": {
+      "id": 1,
+      "title": {
+        "romaji": "Changed it!",
+        "english": "Cowboy changed!",
+        "native": "\u30ab\u30a6\u30dc\u30fc\u30a4\u30d3\u30d0\u30c3\u30d7",
+        "__typename": "MediaTitle"
+      },
+      "__typename": "Media"
+    }
+  }
+}
